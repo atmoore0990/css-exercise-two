@@ -1,10 +1,36 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 140%;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+a:link {
+text-decoration: none;
+color:white;
+}
+
+a:hover { 
+color:black; 
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: grey;
   float: left;
   position: fixed;
   width: 100%;
